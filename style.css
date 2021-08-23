@@ -1,0 +1,57 @@
+
+.btn {
+	background: #fff;
+	border-radius: 5px;
+	cursor: pointer;
+	float: left;
+	font: normal 14px/1.6 "Helvetica Neue", Arial, sans-serif;
+	height: 50px;
+	margin-right: 10px;
+}
+
+.btn .icone, 
+.btn .contador {
+	float: left;
+	line-height: 32px;
+	text-align: center;
+	user-select: none;
+	width: 50%;
+}
+
+.btn .contador {
+	font-weight: 600;
+}
+
+.btn .icone img {
+	display: block;
+	margin: 0 auto;
+	width: 50px;
+}
+
+#thumbs {
+	border: 1px solid #ff0984;
+	width: 300px;
+}
+
+#thumbs .contador {
+	font-size: 24px;
+	background: #ff0984;
+	color: #fff;
+	line-height: 52px;
+	border-radius: 0 5px 5px 0;
+}
+#feedback p {
+	font-size: 24px;
+	color: #818181;
+	float: left;
+	width: 100%;
+}
+
+/* Usado somente no meu código
+.feedback{
+	display: none;
+}
+.clear{
+	clear: both;
+}
+*/
