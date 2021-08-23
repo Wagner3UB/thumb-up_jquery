@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$function() {
 	var btn_thumb = $('#thumbs');
 	var contador = $('#thumbs .contador span');
 
@@ -22,22 +22,3 @@ $(document).ready(function() {
 		btn_thumb.after(p);
 	};
 });
-
-/*
-Codigo criado por mim, onde eu adicionei o texto de feedback no html com display none, e aqui, troquei para block
-
-$(document).ready(function(){
-
-  let btn_thumb = $("#thumbs");
-  let contador = $("#thumbs .contador span");
-  let feedback = $(".feedback");
-  
-  btn_thumb.on("click", onClick);
-
-  function onClick(){
-    let contagem = parseInt(contador.text()); //transformar o texto em numero inteiro
-    if(contagem < 1){
-      contador.text(contagem + 1);
-    };
-    feedback.css("display", "block");
-  };*/
